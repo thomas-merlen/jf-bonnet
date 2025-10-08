@@ -1,0 +1,105 @@
+body{
+    font-family: "Poppins", "Segoe UI", sans-serif;
+    background-color:  #fbe5d6;
+    color: #3b2f2f;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav{
+    background-color: #8b0000;
+    padding: 1em 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a{
+    color: #fffaf0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover{
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+h1{
+    font-size: 2.5em;
+    margin-top: 1em;
+    color: #4b2e05;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 1.8em;
+    color: #6b4226;
+    margin-top: 2em;
+    text-decoration: underline #b5651d;
+}
+
+img{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    margin: 2em auto;
+    display: block;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+p a{
+    background-color: #8b0000;
+    color: #fffaf0;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+p a:hover{
+    background-color: #b22222;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px){
+    nav li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1{
+        font-size: 1.8em;
+    }
+
+    img{
+        width: 95%;
+    }
+}
+
+#image-terroir{
+    width: 600px;     
+    height: 400px;    
+    object-fit: cover; 
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px; 
+}
