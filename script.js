@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const date = document.getElementById("date").value;
 
     button.disabled = true;
-    button.innerHTML = "🍷 On remplit la carafe...";
+    button.innerHTML = "🍷 On remplit la carafe... ";
     button.classList.add("wine-loading");
 
     setTimeout(() => {
@@ -29,11 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
       On vous garde un petit rouge du pays, et un bout de fromage bien affiné ! 🧀`;
       message.style.display = "block";
       message.classList.add("pop-in");
-
-      setTimeout(() => {
-        message.classList.remove("pop-in");
-        message.style.display = "none";
-      }, 5000);
     }, 2500);
   });
   
