@@ -22,6 +22,13 @@ nav ul{
     padding: 0;
 }
 
+ul.menu{
+    color: #6b4226;
+    font-size: 1.5em;
+    text-align: left;
+    list-style: none;
+}
+
 nav li{
     display: inline-block;
     margin: 0 20px;
