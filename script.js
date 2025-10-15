@@ -18,7 +18,7 @@ const images = [
   "equipe.jpeg",
   "apex.jpg",
   "trophee.jpg",
-  "trophee2.jpg",
+  "trophee2.jpg"
 ];
 
 let index = 0;
@@ -36,6 +36,7 @@ function changeImage() {
 setInterval(changeImage, 2000);
 
 imageElement.style.transition = "opacity 0.5s ease-in-out";
+
 
 
 
