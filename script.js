@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 const images = [
-  "equipe.jpeg",
+  "equipe.webp",
   "apex.jpg",
   "trophee.jpg",
   "trophee2.jpg"
@@ -36,6 +36,7 @@ function changeImage() {
 setInterval(changeImage, 2000);
 
 imageElement.style.transition = "opacity 0.5s ease-in-out";
+
 
 
 
