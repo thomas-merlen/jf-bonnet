@@ -1,3 +1,5 @@
+ /* css de la page de contact */
+
 body{
     font-family: "Poppins", "Segoe UI", sans-serif;
     background-color:  #fbe5d6;
@@ -58,6 +60,18 @@ form{
     transition: transform 0.3s ease;
 }
 
+#message {
+  background-color: #fffaf0;
+  border: 2px solid #d4a373;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4b2e05;
+  font-weight: bold;
+  transform: scale(1);
+  width: 95%;         
+}
+
+
 
 label{
     font-weight: bold;
@@ -109,39 +123,4 @@ button:hover{
     }
 }
 
-button.wine-loading{
-  position: relative;
-  background-color: #8b0000;
-  color: white;
-  cursor: wait;
-}
 
-button.wine-loading::after{
-  content: "🍷";
-  position: absolute;
-  right: 10px;
-  animation: swirl 0.8s linear infinite;
-}
-
-@keyframes swirl{
-  0%{ transform: rotate(0deg); }
-  100%{ transform: rotate(360deg); }
-}
-
-#message{
-  margin-top: 15px;
-  background-color: #fff3e0;
-  border: 2px solid #d4a373;
-  border-radius: 10px;
-  padding: 10px 15px;
-  color: #4b2e05;
-  font-weight: bold;
-  opacity: 0;
-  transform: scale(0.8);
-  transition: all 0.5s ease;
-}
-
-#message.pop-in{
-  opacity: 1;
-  transform: scale(1);
-}
